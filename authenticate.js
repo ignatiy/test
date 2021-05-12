@@ -1,6 +1,6 @@
-function authenticate(login, password) {
-	if (login === 'login' || password === 'password') {
-		return "asd!";
+function authenticate(login) {
+	if (login === 'login') {
+		return "qqqqqq";
 	} else {
 		return "asd is incorrect!!!";
 	}
