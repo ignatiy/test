@@ -1,7 +1,7 @@
-function auth(login, password) {
-	if (login === 'login' && password === 'password') {
-		return "Is correct!"
+function auth(login) {
+	if (login === 'login') {
+		return "Login is correct!"
 	} else {
-		return "Incorrect!"
+		return "Login incorrect!"
 	}
 }
