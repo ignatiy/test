@@ -1,7 +1,7 @@
-function authenticate(login) {
-	if (login === 'login') {
+function authenticate(login, password) {
+	if (login === 'login' && password === 'password') {
 		return "Welcome!";
 	} else {
-		return "Login is incorrect!!!";
+		return "Login is incorrect!";
 	}
 }
