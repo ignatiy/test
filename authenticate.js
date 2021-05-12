@@ -1,7 +1,7 @@
 function authenticate(login) {
 	if (login === 'login') {
-		return "Welcome!";
+		return "qqqqqq";
 	} else {
-		return "Login is incorrect!!!";
+		return "qqqqqqqqqqqqqq!";
 	}
 }
